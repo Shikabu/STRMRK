@@ -1,0 +1,1156 @@
+00000050  arduino-lib-builder
+0000019A  gateway_TXcan_task
+000001AD  gateway_RXusb_task
+000001C0  gateway_RXcan_task
+000001D3  gateway_TXusb_task
+000001E6  mark_process
+00000281  arduino_events
+0000038B  esp32-
+000003B9  uart_event_task
+000003C9  GPIO
+000003CE  UART_RX
+000003D6  UART_TX
+000003DE  UART_CTS
+000003E7  UART_RTS
+0000067A  "(Cannot use REG_SET_FIELD for DPORT registers use DPORT_REG_SET_FIELD)" && (!((((pin_name)) >= 0x3ff00000) && ((pin_name)) <= 0x3ff13FFC))
+00000706  /C:\Users\DmitryT\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.3-cfea4f7c-v1\esp32/include/hal/esp32/include/hal/gpio_ll.h
+000007A3  busptr && "_uartDetachBus_RTS bus NULL pointer."
+000007D4  /C:\Users\DmitryT\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.1.1\cores\esp32\esp32-hal-uart.c
+0000083F  busptr && "_uartDetachBus_CTS bus NULL pointer."
+00000870  busptr && "_uartDetachBus_TX bus NULL pointer."
+000008A0  busptr && "_uartDetachBus_RX bus NULL pointer."
+000008D0  uart_intr_config(uart->num, &uart_intr)
+000008F8  uart_flush_input(uart->num)
+00000914  loopTask
+0000095A    Total Size        : %8u B (%6.1f KB)
+00000A78  ESP32
+00000A7F  ESP32-S2
+00000A89  ESP32-S3
+00000A93  ESP32-C2
+00000A9D  ESP32-C3
+00000AA7  ESP32-C6
+00000AB1  ESP32-H2
+00000ABB  ESP32-P4
+00000BEA    2.4GHz WiFi       : %s
+00000DA2  , subtype: OTA_%lu
+00000E01  NVS_KEYS
+00000E1D  ESPHTTPD
+00000E9E    ESP-IDF Version   : %s
+00000EBE    Arduino Version   : %s
+00000EE5  ESP32_DEV
+00000EEF    Arduino Board     : %s
+00000F09  doitESP32devkitV1
+00000F1B    Arduino Variant   : %s
+00000F35  esp32:esp32:esp32doit-devkit-v1:UploadSpeed=921600,FlashFreq=80,DebugLevel=none,EraseFlash=none
+00000F95    Arduino FQBN      : %s
+00001007  GPIO Info:
+00001013    GPIO : BUS_TYPE[bus/unit][chan]
+0000109F  gpio
+000010BC  GPIO number error
+000010CE  GPIO output gpio_num error
+000010E9  "(Cannot use REG_WRITE for DPORT registers use DPORT_REG_WRITE)" && (!(((((0x3ff44000 + 0x0530) + (gpio_num * 4))) >= 0x3ff00000) && (((0x3ff44000 + 0x0530) + (gpio_num * 4))) <= 0x3ff13FFC))
+000011A9  //IDF/components/hal/esp32/include/hal/gpio_ll.h
+000011DA  "(Cannot use REG_SET_BIT for DPORT registers use DPORT_REG_SET_BIT)" && (!((((GPIO_PIN_MUX_REG[gpio_num])) >= 0x3ff00000) && ((GPIO_PIN_MUX_REG[gpio_num])) <= 0x3ff13FFC))
+00001286  GPIO interrupt type error
+000012A0  GPIO pull mode error
+000012B5  E (%lu) %s: io_num=%d can only be input
+000012DE  E (%lu) %s: GPIO_PIN mask error 
+00001300  E (%lu) %s: GPIO can only be used as input mode
+00001331  GPIO isr service is not installed, call gpio_install_isr_service() first
+0000137A  GPIO ISR null
+00001388  E (%lu) %s: esp_ipc_call_blocking failed (0x%x)
+000013B9  E (%lu) %s: esp_intr_alloc failed (0x%x)
+000013E3  GPIO isr service already installed
+00001406  E (%lu) %s: GPIO wakeup only supports level mode, but edge mode set. gpio_num:%u
+00001458  "(Cannot use SET_PERI_REG_BITS for DPORT registers use DPORT_SET_PERI_REG_BITS)" && (!((((rtc_io_desc[rtcio_num].reg)) >= 0x3ff00000) && ((rtc_io_desc[rtcio_num].reg)) <= 0x3ff13FFC))
+00001510  //IDF/components/hal/esp32/include/hal/rtc_io_ll.h
+00001549  E (%lu) %s: %s(%d): RTCIO number error
+00001571  "(Cannot use SET_PERI_REG_MASK for DPORT registers use DPORT_SET_PERI_REG_MASK)" && (!((((rtc_io_desc[rtcio_num].reg)) >= 0x3ff00000) && ((rtc_io_desc[rtcio_num].reg)) <= 0x3ff13FFC))
+00001629  "(Cannot use CLEAR_PERI_REG_MASK for DPORT registers use DPORT_CLEAR_PERI_REG_MASK)" && (!((((rtc_io_desc[rtcio_num].reg)) >= 0x3ff00000) && ((rtc_io_desc[rtcio_num].reg)) <= 0x3ff13FFC))
+000016E5  esp_ota_ops
+000016F1  E (%lu) %s: not found otadata
+00001710  E (%lu) %s: mmap otadata filed. Err=0x%8x
+00001762  //IDF/components/app_update/esp_ota_ops.c
+00001797  ota_app_count < 16 && "must erase the partition before writing to it"
+000018FF  //IDF/components/esp_partition/partition.c
+0000194D  //IDF/components/esp_partition/partition_target.c
+0000199F  //IDF/components/efuse/src/esp_efuse_utility.c
+00001A32  "(Cannot use REG_READ for DPORT registers use DPORT_REG_READ)" && (!((((addr_wr_reg)) >= 0x3ff00000) && ((addr_wr_reg)) <= 0x3ff13FFC))
+00001B15  "(Cannot use REG_READ for DPORT registers use DPORT_REG_READ)" && (!((((range_read_addr_blocks[blk].start + num_reg * 4)) >= 0x3ff00000) && ((range_read_addr_blocks[blk].start + num_reg * 4)) <= 0x3ff13FFC))
+00001D1E  //IDF/components/bootloader_support/bootloader_flash/src/bootloader_flash.c
+00001D8C  esp_image
+00002032  //IDF/components/bootloader_support/src/idf/bootloader_sha.c
+00002092  //IDF/components/spi_flash/flash_mmap.c
+00002122  //IDF/components/spi_flash/esp_flash_api.c
+0000214D  E (%lu) %s: esp_flash_get_size failed, flash error code: %d
+0000224C  //IDF/components/spi_flash/spi_flash_os_func_app.c
+00002298  //IDF/components/spi_flash/cache_utils.c
+000022C1  esp_task_stack_is_sane_cache_disabled()
+00002327  !(xTaskGetSchedulerState() == taskSCHEDULER_NOT_STARTED && cpuid != 0)
+0000238A  /IDF/components/hal/esp32/include/hal/cache_ll.h
+000023BB  io <= ESP_MSPI_IO_WP
+000023D0  //IDF/components/spi_flash/flash_ops.c
+00002411  //IDF/components/esp_system/esp_ipc.c
+0000244A  Guru Meditation Error: Core 
+00002504  flash_ret == ESP_OK
+00002518  //IDF/components/esp_system/startup_funcs.c
+00002544  task_wdt
+0000254D  E (%lu) %s: %s(%d): task watchdog was never initialized
+00002586  E (%lu) %s: %s(%d): task is already subscribed
+000025E6  E (%lu) %s: %s(%d): task not found
+00002653  //IDF/components/esp_system/task_wdt/task_wdt.c
+0000270A  idle_task_handle
+0000271B  esp_task_wdt_add(idle_task_handle)
+0000273E  esp_register_freertos_idle_hook_for_cpu(idle_hook_cb, core_num)
+00002819  Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+000029C4  //IDF/components/esp_system/port/esp_ipc_isr.c
+00002A1E  SingleStep 
+00002A38  Stack canary watchpoint triggered (
+00002CEA  InstructionFetchError
+00002D00  LoadStoreError
+00002D64  InstrPDAddrError
+00002D75  LoadStorePIFDataError
+00002D8B  InstrPIFAddrError
+00002D9D  LoadStorePIFAddrError
+00002ED4  E (%lu) %s: %s(%d): Task snapshot alloc failed
+00002F60  //IDF/components/esp_system/port/soc/esp32/clk.c
+00002FBB  //IDF/components/esp_system/crosscore_int.c
+00003025  ESP_FAIL
+0000302E  ESP_ERR_NO_MEM
+0000303D  ESP_ERR_INVALID_ARG
+00003051  ESP_ERR_INVALID_STATE
+00003067  ESP_ERR_INVALID_SIZE
+0000307C  ESP_ERR_NOT_FOUND
+0000308E  ESP_ERR_NOT_SUPPORTED
+000030A4  ESP_ERR_TIMEOUT
+000030B4  ESP_ERR_INVALID_RESPONSE
+000030CD  ESP_ERR_INVALID_CRC
+000030E1  ESP_ERR_INVALID_VERSION
+000030F9  ESP_ERR_INVALID_MAC
+0000310D  ESP_ERR_NOT_FINISHED
+00003122  ESP_ERR_NOT_ALLOWED
+00003136  ESP_ERR_NVS_BASE
+00003147  ESP_ERR_NVS_NOT_INITIALIZED
+00003163  ESP_ERR_NVS_NOT_FOUND
+00003179  ESP_ERR_NVS_TYPE_MISMATCH
+00003193  ESP_ERR_NVS_READ_ONLY
+000031A9  ESP_ERR_NVS_NOT_ENOUGH_SPACE
+000031C6  ESP_ERR_NVS_INVALID_NAME
+000031DF  ESP_ERR_NVS_INVALID_HANDLE
+000031FA  ESP_ERR_NVS_REMOVE_FAILED
+00003214  ESP_ERR_NVS_KEY_TOO_LONG
+0000322D  ESP_ERR_NVS_PAGE_FULL
+00003243  ESP_ERR_NVS_INVALID_STATE
+0000325D  ESP_ERR_NVS_INVALID_LENGTH
+00003278  ESP_ERR_NVS_NO_FREE_PAGES
+00003292  ESP_ERR_NVS_VALUE_TOO_LONG
+000032AD  ESP_ERR_NVS_PART_NOT_FOUND
+000032C8  ESP_ERR_NVS_NEW_VERSION_FOUND
+000032E6  ESP_ERR_NVS_XTS_ENCR_FAILED
+00003302  ESP_ERR_NVS_XTS_DECR_FAILED
+0000331E  ESP_ERR_NVS_XTS_CFG_FAILED
+00003339  ESP_ERR_NVS_XTS_CFG_NOT_FOUND
+00003357  ESP_ERR_NVS_ENCR_NOT_SUPPORTED
+00003376  ESP_ERR_NVS_KEYS_NOT_INITIALIZED
+00003397  ESP_ERR_NVS_CORRUPT_KEY_PART
+000033B4  ESP_ERR_NVS_CONTENT_DIFFERS
+000033D0  ESP_ERR_NVS_WRONG_ENCRYPTION
+000033ED  ESP_ERR_ULP_BASE
+000033FE  ESP_ERR_ULP_SIZE_TOO_BIG
+00003417  ESP_ERR_ULP_INVALID_LOAD_ADDR
+00003435  ESP_ERR_ULP_DUPLICATE_LABEL
+00003451  ESP_ERR_ULP_UNDEFINED_LABEL
+0000346D  ESP_ERR_ULP_BRANCH_OUT_OF_RANGE
+0000348D  ESP_ERR_OTA_BASE
+0000349E  ESP_ERR_OTA_PARTITION_CONFLICT
+000034BD  ESP_ERR_OTA_SELECT_INFO_INVALID
+000034DD  ESP_ERR_OTA_VALIDATE_FAILED
+000034F9  ESP_ERR_OTA_SMALL_SEC_VER
+00003513  ESP_ERR_OTA_ROLLBACK_FAILED
+0000352F  ESP_ERR_OTA_ROLLBACK_INVALID_STATE
+00003552  ESP_ERR_EFUSE
+00003560  ESP_OK_EFUSE_CNT
+00003571  ESP_ERR_EFUSE_CNT_IS_FULL
+0000358B  ESP_ERR_EFUSE_REPEATED_PROG
+000035A7  ESP_ERR_CODING
+000035B6  ESP_ERR_NOT_ENOUGH_UNUSED_KEY_BLOCKS
+000035DB  ESP_ERR_DAMAGED_READING
+000035F3  ESP_ERR_IMAGE_BASE
+00003606  ESP_ERR_IMAGE_FLASH_FAIL
+0000361F  ESP_ERR_IMAGE_INVALID
+00003635  ESP_ERR_WIFI_BASE
+00003647  ESP_ERR_WIFI_NOT_INIT
+0000365D  ESP_ERR_WIFI_NOT_STARTED
+00003676  ESP_ERR_WIFI_NOT_STOPPED
+0000368F  ESP_ERR_WIFI_IF
+0000369F  ESP_ERR_WIFI_MODE
+000036B1  ESP_ERR_WIFI_STATE
+000036C4  ESP_ERR_WIFI_CONN
+000036D6  ESP_ERR_WIFI_NVS
+000036E7  ESP_ERR_WIFI_MAC
+000036F8  ESP_ERR_WIFI_SSID
+0000370A  ESP_ERR_WIFI_PASSWORD
+00003720  ESP_ERR_WIFI_TIMEOUT
+00003735  ESP_ERR_WIFI_WAKE_FAIL
+0000374C  ESP_ERR_WIFI_WOULD_BLOCK
+00003765  ESP_ERR_WIFI_NOT_CONNECT
+0000377E  ESP_ERR_WIFI_POST
+00003790  ESP_ERR_WIFI_INIT_STATE
+000037A8  ESP_ERR_WIFI_STOP_STATE
+000037C0  ESP_ERR_WIFI_NOT_ASSOC
+000037D7  ESP_ERR_WIFI_TX_DISALLOW
+000037F0  ESP_ERR_WIFI_TWT_FULL
+00003806  ESP_ERR_WIFI_TWT_SETUP_TIMEOUT
+00003825  ESP_ERR_WIFI_TWT_SETUP_TXFAIL
+00003843  ESP_ERR_WIFI_TWT_SETUP_REJECT
+00003861  ESP_ERR_WIFI_DISCARD
+00003876  ESP_ERR_WIFI_ROC_IN_PROGRESS
+00003893  ESP_ERR_WIFI_REGISTRAR
+000038AA  ESP_ERR_WIFI_WPS_TYPE
+000038C0  ESP_ERR_WIFI_WPS_SM
+000038D4  ESP_ERR_ESPNOW_BASE
+000038E8  ESP_ERR_ESPNOW_NOT_INIT
+00003900  ESP_ERR_ESPNOW_ARG
+00003913  ESP_ERR_ESPNOW_NO_MEM
+00003929  ESP_ERR_ESPNOW_FULL
+0000393D  ESP_ERR_ESPNOW_NOT_FOUND
+00003956  ESP_ERR_ESPNOW_INTERNAL
+0000396E  ESP_ERR_ESPNOW_EXIST
+00003983  ESP_ERR_ESPNOW_IF
+00003995  ESP_ERR_ESPNOW_CHAN
+000039A9  ESP_ERR_DPP_FAILURE
+000039BD  ESP_ERR_DPP_TX_FAILURE
+000039D4  ESP_ERR_DPP_INVALID_ATTR
+000039ED  ESP_ERR_DPP_AUTH_TIMEOUT
+00003A06  ESP_ERR_DPP_INVALID_LIST
+00003A1F  ESP_ERR_MESH_BASE
+00003A31  ESP_ERR_MESH_WIFI_NOT_START
+00003A4D  ESP_ERR_MESH_NOT_INIT
+00003A63  ESP_ERR_MESH_NOT_CONFIG
+00003A7B  ESP_ERR_MESH_NOT_START
+00003A92  ESP_ERR_MESH_NOT_SUPPORT
+00003AAB  ESP_ERR_MESH_NOT_ALLOWED
+00003AC4  ESP_ERR_MESH_NO_MEMORY
+00003ADB  ESP_ERR_MESH_ARGUMENT
+00003AF1  ESP_ERR_MESH_EXCEED_MTU
+00003B09  ESP_ERR_MESH_TIMEOUT
+00003B1E  ESP_ERR_MESH_DISCONNECTED
+00003B38  ESP_ERR_MESH_QUEUE_FAIL
+00003B50  ESP_ERR_MESH_QUEUE_FULL
+00003B68  ESP_ERR_MESH_NO_PARENT_FOUND
+00003B85  ESP_ERR_MESH_NO_ROUTE_FOUND
+00003BA1  ESP_ERR_MESH_OPTION_NULL
+00003BBA  ESP_ERR_MESH_OPTION_UNKNOWN
+00003BD6  ESP_ERR_MESH_XON_NO_WINDOW
+00003BF1  ESP_ERR_MESH_INTERFACE
+00003C08  ESP_ERR_MESH_DISCARD_DUPLICATE
+00003C27  ESP_ERR_MESH_DISCARD
+00003C3C  ESP_ERR_MESH_VOTING
+00003C50  ESP_ERR_MESH_XMIT
+00003C62  ESP_ERR_MESH_QUEUE_READ
+00003C7A  ESP_ERR_MESH_PS
+00003C8A  ESP_ERR_MESH_RECV_RELEASE
+00003CA4  ESP_ERR_ESP_NETIF_BASE
+00003CBB  ESP_ERR_ESP_NETIF_INVALID_PARAMS
+00003CDC  ESP_ERR_ESP_NETIF_IF_NOT_READY
+00003CFB  ESP_ERR_ESP_NETIF_DHCPC_START_FAILED
+00003D20  ESP_ERR_ESP_NETIF_DHCP_ALREADY_STARTED
+00003D47  ESP_ERR_ESP_NETIF_DHCP_ALREADY_STOPPED
+00003D6E  ESP_ERR_ESP_NETIF_NO_MEM
+00003D87  ESP_ERR_ESP_NETIF_DHCP_NOT_STOPPED
+00003DAA  ESP_ERR_ESP_NETIF_DRIVER_ATTACH_FAILED
+00003DD1  ESP_ERR_ESP_NETIF_INIT_FAILED
+00003DEF  ESP_ERR_ESP_NETIF_DNS_NOT_CONFIGURED
+00003E14  ESP_ERR_ESP_NETIF_MLD6_FAILED
+00003E32  ESP_ERR_ESP_NETIF_IP6_ADDR_FAILED
+00003E54  ESP_ERR_ESP_NETIF_DHCPS_START_FAILED
+00003E79  ESP_ERR_FLASH_BASE
+00003E8C  ESP_ERR_FLASH_OP_FAIL
+00003EA2  ESP_ERR_FLASH_OP_TIMEOUT
+00003EBB  ESP_ERR_FLASH_NOT_INITIALISED
+00003ED9  ESP_ERR_FLASH_UNSUPPORTED_HOST
+00003EF8  ESP_ERR_FLASH_UNSUPPORTED_CHIP
+00003F17  ESP_ERR_FLASH_PROTECTED
+00003F2F  ESP_ERR_HTTP_BASE
+00003F41  ESP_ERR_HTTP_MAX_REDIRECT
+00003F5B  ESP_ERR_HTTP_CONNECT
+00003F70  ESP_ERR_HTTP_WRITE_DATA
+00003F88  ESP_ERR_HTTP_FETCH_HEADER
+00003FA2  ESP_ERR_HTTP_INVALID_TRANSPORT
+00003FC1  ESP_ERR_HTTP_CONNECTING
+00003FD9  ESP_ERR_HTTP_EAGAIN
+00003FED  ESP_ERR_HTTP_CONNECTION_CLOSED
+0000400C  ESP_ERR_ESP_TLS_BASE
+00004021  ESP_ERR_ESP_TLS_CANNOT_RESOLVE_HOSTNAME
+00004049  ESP_ERR_ESP_TLS_CANNOT_CREATE_SOCKET
+0000406E  ESP_ERR_ESP_TLS_UNSUPPORTED_PROTOCOL_FAMILY
+0000409A  ESP_ERR_ESP_TLS_FAILED_CONNECT_TO_HOST
+000040C1  ESP_ERR_ESP_TLS_SOCKET_SETOPT_FAILED
+000040E6  ESP_ERR_ESP_TLS_CONNECTION_TIMEOUT
+00004109  ESP_ERR_ESP_TLS_SE_FAILED
+00004123  ESP_ERR_ESP_TLS_TCP_CLOSED_FIN
+00004142  ESP_ERR_MBEDTLS_CERT_PARTLY_OK
+00004161  ESP_ERR_MBEDTLS_CTR_DRBG_SEED_FAILED
+00004186  ESP_ERR_MBEDTLS_SSL_SET_HOSTNAME_FAILED
+000041AE  ESP_ERR_MBEDTLS_SSL_CONFIG_DEFAULTS_FAILED
+000041D9  ESP_ERR_MBEDTLS_SSL_CONF_ALPN_PROTOCOLS_FAILED
+00004208  ESP_ERR_MBEDTLS_X509_CRT_PARSE_FAILED
+0000422E  ESP_ERR_MBEDTLS_SSL_CONF_OWN_CERT_FAILED
+00004257  ESP_ERR_MBEDTLS_SSL_SETUP_FAILED
+00004278  ESP_ERR_MBEDTLS_SSL_WRITE_FAILED
+00004299  ESP_ERR_MBEDTLS_PK_PARSE_KEY_FAILED
+000042BD  ESP_ERR_MBEDTLS_SSL_HANDSHAKE_FAILED
+000042E2  ESP_ERR_MBEDTLS_SSL_CONF_PSK_FAILED
+00004306  ESP_ERR_MBEDTLS_SSL_TICKET_SETUP_FAILED
+0000432E  ESP_ERR_WOLFSSL_SSL_SET_HOSTNAME_FAILED
+00004356  ESP_ERR_WOLFSSL_SSL_CONF_ALPN_PROTOCOLS_FAILED
+00004385  ESP_ERR_WOLFSSL_CERT_VERIFY_SETUP_FAILED
+000043AE  ESP_ERR_WOLFSSL_KEY_VERIFY_SETUP_FAILED
+000043D6  ESP_ERR_WOLFSSL_SSL_HANDSHAKE_FAILED
+000043FB  ESP_ERR_WOLFSSL_CTX_SETUP_FAILED
+0000441C  ESP_ERR_WOLFSSL_SSL_SETUP_FAILED
+0000443D  ESP_ERR_WOLFSSL_SSL_WRITE_FAILED
+0000445E  ESP_ERR_HTTPS_OTA_BASE
+00004475  ESP_ERR_HTTPS_OTA_IN_PROGRESS
+00004493  ESP_ERR_PING_BASE
+000044A5  ESP_ERR_PING_INVALID_PARAMS
+000044C1  ESP_ERR_PING_NO_MEM
+000044D5  ESP_ERR_HTTPD_BASE
+000044E8  ESP_ERR_HTTPD_HANDLERS_FULL
+00004504  ESP_ERR_HTTPD_HANDLER_EXISTS
+00004521  ESP_ERR_HTTPD_INVALID_REQ
+0000453B  ESP_ERR_HTTPD_RESULT_TRUNC
+00004556  ESP_ERR_HTTPD_RESP_HDR
+0000456D  ESP_ERR_HTTPD_RESP_SEND
+00004585  ESP_ERR_HTTPD_ALLOC_MEM
+0000459D  ESP_ERR_HTTPD_TASK
+000045B0  ESP_ERR_HW_CRYPTO_BASE
+000045C7  ESP_ERR_HW_CRYPTO_DS_HMAC_FAIL
+000045E6  ESP_ERR_HW_CRYPTO_DS_INVALID_KEY
+00004607  ESP_ERR_HW_CRYPTO_DS_INVALID_DIGEST
+0000462B  ESP_ERR_HW_CRYPTO_DS_INVALID_PADDING
+00004650  ESP_ERR_MEMPROT_BASE
+00004665  ESP_ERR_MEMPROT_MEMORY_TYPE_INVALID
+00004689  ESP_ERR_MEMPROT_SPLIT_ADDR_INVALID
+000046AC  ESP_ERR_MEMPROT_SPLIT_ADDR_OUT_OF_RANGE
+000046D4  ESP_ERR_MEMPROT_SPLIT_ADDR_UNALIGNED
+000046F9  ESP_ERR_MEMPROT_UNIMGMT_BLOCK_INVALID
+0000471F  ESP_ERR_MEMPROT_WORLD_INVALID
+0000473D  ESP_ERR_MEMPROT_AREA_INVALID
+0000475A  ESP_ERR_MEMPROT_CPUID_INVALID
+00004807  //IDF/components/log/log.c
+0000483D  //IDF/components/heap/heap_caps_init.c
+000048FF  //IDF/components/heap/multi_heap.c
+00004960  //IDF/components/heap/tlsf/tlsf_block_functions.h
+00004A03  current && "free list cannot have a null entry"
+00004A33  //IDF/components/heap/tlsf/tlsf.c
+00004B72  prev && "prev_free field can not be null"
+00004B9C  next && "next_free field can not be null"
+00004C3A  sl_map && "internal error - second level bitmap is null"
+00004E41  !block_is_free(block) && "block already marked as free"
+00004E79  prev && "prev physical block can't be null"
+00004EA5  block_is_free(prev) && "prev block is not free though marked as such"
+00004EEB  !block_is_last(prev) && "previous block can't be last"
+00004F22  next && "next physical block can't be null"
+00004FFD  //IDF/components/heap/multi_heap_poisoning.c
+0000504F  //IDF/components/heap/port/memory_layout_utils.c
+0000516B  //IDF/components/heap/heap_caps_base.c
+00005192  esp_ptr_in_diram_dram((void *)dstart)
+000051B8  esp_ptr_in_diram_dram((void *)dend)
+00005271  //IDF/components/esp_hw_support/cpu.c
+000052A3  //IDF/components/esp_hw_support/hw_random.c
+00005318  //IDF/components/esp_hw_support/intr_alloc.c
+000053CD  //IDF/components/esp_hw_support/include/esp_cpu.h
+00005440  E (%lu) %s: Base MAC address version error, version = %d
+0000547A  E (%lu) %s: Base MAC address from BLK3 of EFUSE CRC error, efuse_crc = 0x%02x; calc_crc = 0x%02x
+000054F1  //IDF/components/esp_hw_support/mac_addr.c
+0000551C  E (%lu) %s: Base MAC address from BLK0 of EFUSE CRC error, efuse_crc = 0x%02x; calc_crc = 0x%02x
+000055E0  E (%lu) %s: EFUSE MAC can not be set using this API
+00005641  E (%lu) %s: Error reading BASE MAC address
+0000568F  E (%lu) %s: MAC address generation error
+000056D4  //IDF/components/esp_hw_support/periph_ctrl.c
+0000574B  "(Cannot use REG_CLR_BIT for DPORT registers use DPORT_REG_CLR_BIT)" && (!((((rtc_io_desc[rtcio_num].reg)) >= 0x3ff00000) && ((rtc_io_desc[rtcio_num].reg)) <= 0x3ff13FFC))
+000057F7  esp_clk_tree
+000058C6  //IDF/components/esp_hw_support/port/esp32/rtc_time.c
+00005A22  //IDF/components/esp_hw_support/port/esp32/esp_cpu_intr.c
+00005A5C  esp_task_wdt_init(&twdt_config)
+00005A81  //IDF/components/freertos/app_startup.c
+00005AA9  pxQueueSetContainer
+00005ABD  //IDF/components/freertos/FreeRTOS-Kernel/queue.c
+00005AEF  pxQueueSetContainer->uxMessagesWaiting < pxQueueSetContainer->uxLength
+00005B36  pxQueue
+00005B62  xSize == sizeof( Queue_t )
+00005B7D  pxNewQueue
+00005B88  ppxStaticQueue
+00005BAA  !( ( pvItemToQueue == ((void *)0) ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) )
+00005C01  !( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) )
+00005C4E  !( ( xTaskGetSchedulerState() == ( ( BaseType_t ) 0 ) ) && ( xTicksToWait != 0 ) )
+00005CA9  pxQueue->uxItemSize == 0
+00005CC2  !( ( pxQueue->pcHead == ((void *)0) ) && ( pxQueue->u.xSemaphore.xMutexHolder != ((void *)0) ) )
+00005D23  ( pxQueue )
+00005D2F  !( ( ( pvBuffer ) == ((void *)0) ) && ( ( pxQueue )->uxItemSize != ( UBaseType_t ) 0U ) )
+00005D89  !( ( pvBuffer == ((void *)0) ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) )
+00005DDB  uxTaskPriority < ( 25 )
+00005DF3  //IDF/components/freertos/FreeRTOS-Kernel/tasks.c
+00005E25  xTask
+00005E77  xTaskToResume
+00005E9B  ( ( ( ( pxDelayedTaskList )->uxNumberOfItems == ( UBaseType_t ) 0 ) ? ( ( BaseType_t ) 1 ) : ( ( BaseType_t ) 0 ) ) )
+00005F11  xTaskScheduled == ( ( BaseType_t ) 1 )
+00006022  ( ( xTaskGetSchedulerState() == ( ( BaseType_t ) 0 ) ) ? ( ( BaseType_t ) 1 ) : ( ( BaseType_t ) 0 ) ) == ( ( BaseType_t ) 0 )
+000060A1  ( ( xTaskGetSchedulerState() == ( ( BaseType_t ) 0 ) ) ? ( ( BaseType_t ) 1 ) : ( ( BaseType_t ) 0 ) ) == ( ( BaseType_t ) 1 )
+000061B1  xTaskToNotify
+0000622A  //IDF/components/freertos/esp_additions/freertos_tasks_c_additions.h
+00006353  xPortCheckValidTCBMem(pxTaskBuffer)
+00006437  ( xIdleTaskHandle[ xCoreID ] != ((void *)0) )
+00006478  //IDF/components/freertos/FreeRTOS-Kernel/event_groups.c
+00006570  pxTasksWaitingForBits->xListEnd.pxNext != ( const ListItem_t * ) &( pxTasksWaitingForBits->xListEnd )
+000065DF  E (%lu) %s: FreeRTOS Task "%s" should not return, Aborting now!
+00006643  //IDF/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c
+00006684  ***ERROR*** A stack overflow in task 
+000066BE  E (%lu) %s: Fatal error: TLSP deletion callback at index %d overwritten with non-excutable pointer %p
+0000673D  //IDF/components/freertos/port_common.c
+000067A4  //IDF/components/freertos/FreeRTOS-Kernel/timers.c
+00006811  //IDF/components/newlib/locks.c
+00006842  xQueueGetMutexHolder( ( h ) ) == ((void *)0)
+000068EA  E (%lu) %s: Failed to allocate task args!
+00006943  E (%lu) %s: Failed to create task!
+0000698F  //IDF/components/pthread/pthread.c
+00006A01  //IDF/components/pthread/pthread_local_storage.c
+00006A6C  //IDF/components/esp_timer/src/esp_timer_impl_lac.c
+00006B35  esp_timer_impl
+00006B72  E (%lu) %s: Can not allocate ISR handler (0x%0x)
+00006BA4  E (%lu) %s: Can not enable ISR (0x%0x)
+00006E53  E (%lu) %s: %s(%d): reload count can't equal to alarm count
+00007000  //IDF/components/esp_driver_gptimer/src/gptimer_common.c
+00007094  /IDF/components/hal/esp32/include/hal/timer_ll.h
+0000717C  //IDF/components/esp_ringbuf/ringbuf.c
+000078C1  E (%lu) %s: %s(%d): uart_num error
+000078E5  E (%lu) %s: %s(%d): data bit error
+00007909  E (%lu) %s: %s(%d): stop bit error
+00007952  E (%lu) %s: %s(%d): rx flow thresh error
+0000797C  E (%lu) %s: %s(%d): hw_flowctrl mode error
+000079A8  E (%lu) %s: %s(%d): uart driver error
+000079CF  E (%lu) %s: %s(%d): empty intr threshold error
+000079FF  E (%lu) %s: %s(%d): tx_io_num error
+00007A24  E (%lu) %s: %s(%d): rx_io_num error
+00007A49  E (%lu) %s: %s(%d): rts_io_num error
+00007A6F  E (%lu) %s: %s(%d): cts_io_num error
+00007AB5  !(is_rs485_mode && disabled && uart_hal_get_intraw_mask(&(uart_context[uart_num].hal)) & UART_INTR_TX_DONE)
+00007B21  //IDF/components/esp_driver_uart/src/uart.c
+00007B6E  E (%lu) %s: %s(%d): uart size error
+00007B93  E (%lu) %s: %s(%d): uart data null
+00007BB7  E (%lu) %s: %s(%d): break_num error
+00007C05  E (%lu) %s: rx_buffered_len error
+00007C28  E (%lu) %s: %s(%d): uart rx buffer length error
+00007C59  E (%lu) %s: %s(%d): uart tx buffer length error
+00007C8A  E (%lu) %s: UART driver malloc error
+00007CB0  E (%lu) %s: UART driver already installed
+00007CDB  E (%lu) %s: %s(%d): Could not allocate an interrupt for UART
+00007D19  E (%lu) %s: %s(%d): Could not configure the interrupt for UART
+00007D59  E (%lu) %s: %s(%d): rx fifo full threshold value error
+00007D91  E (%lu) %s: call uart_driver_install API first
+00007E0C  //IDF/components/esp_driver_uart/src/uart_vfs.c
+00007E63  /dev/uart
+00007E6D  esp_vfs_register("/dev/uart", &uart_vfs, NULL)
+00007F72  E (%lu) %s: create event loop queue failed
+00007FCA  E (%lu) %s: create task for loop failed
+00007FFE  //IDF/components/esp_event/esp_event.c
+00008025  E (%lu) %s: suspended task for loop %p
+00008129  esp_intr_free(p_obj->isr_handle)
+0000814A  TWAI
+00008166  p_twai_obj->tx_msg_count >= 0
+00008184  //IDF/components/driver/twai/twai.c
+000081A8  false && "failed to get a frame from TX queue"
+000081D7  clk_src == TWAI_CLK_SRC_APB
+000081F3  /IDF/components/hal/esp32/include/hal/twai_ll.h
+00008236  esp_intr_enable(p_twai_obj->isr_handle)
+0000825E  esp_intr_disable(p_twai_obj->isr_handle)
+00008294  E (%lu) %s: %s: NVS has not been initialized. Call nvs_flash_init before starting WiFi/BT.
+00008304  esp_efuse_mac_get_default(sta_mac)
+00008327  /IDF/components/esp_phy/src/phy_init.c
+000084A6  E (%lu) %s: %s: store calibration nvs commit failed(0x%x)
+00008559  esp_deep_sleep_register_phy_hook(&phy_close_rf)
+00008589  /dev/uart/0
+000085D4  //IDF/components/vfs/vfs.c
+0000860E  /IDF/components/lwip/lwip/src/api/sockets.c
+00008744  Required to lock TCPIP core functionality!
+000087E9  /IDF/components/lwip/lwip/src/api/tcpip.c
+00008813  tcpip_thread: invalid message
+0000883E  failed to create tcpip_thread mbox
+00008861  failed to create lock_tcpip_core
+00008886  invalid response
+00008897  /IDF/components/lwip/lwip/src/core/dns.c
+0000892C  /IDF/components/lwip/lwip/src/core/mem.c
+0000899D  /IDF/components/lwip/lwip/src/core/memp.c
+00008A1C  /IDF/components/lwip/lwip/src/core/netif.c
+00008D35  /IDF/components/lwip/lwip/src/core/pbuf.c
+00008F65  /IDF/components/lwip/lwip/src/core/raw.c
+00008F8E  Can't restore header we just removed!
+00008FD6  tcp_free: LISTEN
+00008FE7  /IDF/components/lwip/lwip/src/core/tcp.c
+00009031  tcp_update_rcv_ann_wnd: invalid pcb
+0000906F  don't call tcp_recved for listen-pcbs
+00009095  tcp_seg_copy: invalid seg
+00009141  tcp_next_iss: invalid pcb
+0000915B  tcp_eff_send_mss_netif: invalid dst_ip
+00009182  tcp_pcb_remove: invalid pcb
+0000919E  tcp_pcb_remove: invalid pcblist
+00009206  don't call tcp_abort/tcp_abandon for listen-pcbs
+00009237  tcp_netif_ip_addr_changed_pcblist: invalid old_addr
+0000926B  tcp_close_shutdown: invalid pcb
+000092A4  tcp_free_listen: !LISTEN
+000092BD  tcp_slowtmr: active pcb->state != CLOSED
+000092E7  tcp_slowtmr: active pcb->state != LISTEN
+00009311  tcp_slowtmr: active pcb->state != TIME-WAIT
+0000933E  tcp_slowtimr: persist ticking with in-flight data
+00009370  tcp_slowtimr: persist ticking with empty send buffer
+000093A5  tcp_slowtmr: middle tcp != tcp_active_pcbs
+000093D0  tcp_slowtmr: first pcb == tcp_active_pcbs
+000093FA  tcp_slowtmr: TIME-WAIT pcb->state == TIME-WAIT
+00009429  tcp_slowtmr: middle tcp != tcp_tw_pcbs
+00009450  tcp_slowtmr: first pcb == tcp_tw_pcbs
+00009476  tcp_oos_insert_segment: invalid cseg
+0000949B  /IDF/components/lwip/lwip/src/core/tcp_in.c
+000094C7  tcp_parseopt: invalid pcb
+000094E1  pcb->snd_queuelen >= pbuf_clen(next->p)
+00009509  tcp_receive: valid queue length
+00009529  tcp_receive: wrong state
+00009571  tcp_receive: segment not trimmed correctly to rcv_wnd
+000095A8  tcp_receive: segment not trimmed correctly to ooseq queue
+000095E3  tcp_receive: tcplen > rcv_wnd
+00009602  tcp_receive: ooseq tcplen > rcv_wnd
+00009627  tcp_input: invalid pbuf
+0000967A  tcp_input: active pcb->state != CLOSED
+000096A1  tcp_input: active pcb->state != TIME-WAIT
+000096CB  tcp_input: active pcb->state != LISTEN
+000096F2  tcp_input: pcb->next != pcb (before cache)
+0000971D  tcp_input: pcb->next != pcb (after cache)
+00009747  tcp_input: TIME-WAIT pcb->state == TIME-WAIT
+00009774  tcp_input: pcb->state != CLOSED
+00009794  pcb->snd_queuelen > 0
+000097F5  tcp_create_segment: invalid pcb
+00009815  /IDF/components/lwip/lwip/src/core/tcp_out.c
+00009842  tcp_create_segment: invalid pbuf
+00009878  check that first pbuf can hold struct tcp_hdr
+000098A6  tcp_output_control_segment: invalid pbuf
+000098CF  tcp_output_segment_busy: invalid seg
+000098F4  tcp_output_alloc_header: invalid pcb
+00009919  tcp_output_fill_options: invalid pbuf
+0000993F  tcp_write: pbufs on queue => at least one queue non-empty
+00009979  tcp_write: no pbufs on queue => both queues empty
+00009A54  tcp_write: valid queue length
+00009A72  tcp_split_unsent_seg: invalid pcb
+00009A94  Can't split segment into length 0
+00009AC3  tcp_enqueue_flags: need either TCP_SYN or TCP_FIN in flags (programmer violates API)
+00009B18  tcp_enqueue_flags: invalid pcb
+00009B37  tcp_enqueue_flags: check that first pbuf can hold optlen
+00009B70  seg->tcphdr not aligned
+00009B88  tcp_enqueue_flags: invalid segment length
+00009BB2  tcp_enqueue_flags: invalid queue length
+00009BDA  tcp_send_fin: invalid pcb
+00009BF4  tcp_rexmit_rto_prepare: invalid pcb
+00009C18  tcp_rexmit: invalid pcb
+00009C30  tcp_rexmit_fast: invalid pcb
+00009C4D  tcp_rst: invalid local_ip
+00009C67  tcp_rst: invalid remote_ip
+00009C82  tcp_send_empty_ack: invalid pcb
+00009CA2  tcp_output: invalid pcb
+00009CBA  don't call tcp_output for listen-pcbs
+00009D0A  tcp_rexmit_rto_commit: invalid pcb
+00009D2D  tcp_rexmit_rto: invalid pcb
+00009D49  tcp_keepalive: invalid pcb
+00009D64  tcp_zero_window_probe: invalid pcb
+00009DC4  /IDF/components/lwip/lwip/src/core/timeouts.c
+00009E28  udp_input_local_match: invalid pcb
+00009E4B  /IDF/components/lwip/lwip/src/core/udp.c
+00009E74  udp_input_local_match: invalid netif
+00009E99  udp_input: invalid pbuf
+00009EB1  udp_input: invalid netif
+00009EE5  check that first pbuf can hold struct udp_hdr
+00009F38  /IDF/components/lwip/lwip/src/core/ipv4/dhcp.c
+0000A053  dhcp_pcb_refcount(): refcount error
+0000A077  dhcp_create_msg: check that first pbuf can hold struct dhcp_msg
+0000A152  /IDF/components/lwip/lwip/src/core/ipv4/etharp.c
+0000A1E7  check that first pbuf can hold struct etharp_hdr
+0000A2B6  no packet queues allowed!
+0000A2D0  check that first pbuf can hold icmp message
+0000A2FC  /IDF/components/lwip/lwip/src/core/ipv4/icmp.c
+0000A392  igmp_send: check that first pbuf can hold struct igmp_msg
+0000A3CC  /IDF/components/lwip/lwip/src/core/ipv4/igmp.c
+0000A46E  /IDF/components/lwip/lwip/src/core/ipv4/ip4.c
+0000A4A8  check that first pbuf can hold struct ip_hdr
+0000A4E5  //IDF/components/lwip/lwip/src/core/ipv4/ip4_napt.c
+0000A519  /IDF/components/lwip/lwip/src/core/ipv4/ip4_addr.c
+0000A56C  /IDF/components/lwip/lwip/src/core/ipv4/ip4_frag.c
+0000A59F  dhcp6_create_msg: check that first pbuf can hold struct dhcp6_msg
+0000A5E1  /IDF/components/lwip/lwip/src/core/ipv6/dhcp6.c
+0000A6AC  /IDF/components/lwip/lwip/src/core/ipv6/icmp6.c
+0000A6DC  check that first pbuf can hold icmp6 header
+0000A708  icmpv6 packet not a direct response
+0000A72C  /IDF/components/lwip/lwip/src/core/ipv6/ip6.c
+0000A75A  check that first pbuf can hold struct ip6_hdr
+0000A79F  /IDF/components/lwip/lwip/src/core/ipv6/ip6_frag.c
+0000A7D2  /IDF/components/lwip/lwip/src/core/ipv6/mld6.c
+0000A801  /IDF/components/lwip/lwip/src/core/ipv6/nd6.c
+0000A867  /IDF/components/lwip/lwip/src/netif/ethernet.c
+0000A8E4  /IDF/components/lwip/lwip/src/netif/ppp/ppp.c
+0000A95F  /IDF/components/lwip/lwip/src/netif/ppp/pppos.c
+0000A9C0  No response to PAP authenticate-requests
+0000AA2C  /IDF/components/lwip/lwip/src/netif/ppp/vj.c
+0000AA86  /IDF/components/lwip/port/freertos/sys_arch.c
+0000ABE7  LWIP_CORE_MARK_TCPIP_TASK: lwip_task == NULL
+0000AC14  esp_vfs_register_fd_range(&vfs, NULL, LWIP_SOCKET_OFFSET, MAX_FDS)
+0000AC57  /IDF/components/lwip/port/esp32xx/vfs_lwip.c
+0000ACA5  /IDF/components/lwip/lwip/src/api/api_lib.c
+0000AD2A  recv_udp must have a pcb argument
+0000AD4C  /IDF/components/lwip/lwip/src/api/api_msg.c
+0000AD78  recv_udp must have an argument
+0000AD97  recv_udp: recv for wrong pcb!
+0000AE11  blocking connect state error
+0000AE58  conn->pcb.tcp != NULL
+0000AF0D  this is for tcp netconns only
+0000AF85  recv_tcp must have a pcb argument
+0000AFA7  recv_tcp must have an argument
+0000AFDE  recv_tcp: recv for wrong pcb!
+0000AFFC  unhandled error
+0000B115  netconn marked closed
+0000B12B  netconn state error
+0000B1F2  check that first pbuf can hold size
+0000B216  /IDF/components/lwip/lwip/src/api/netbuf.c
+0000B255  /IDF/components/lwip/lwip/src/apps/sntp/sntp.c
+0000B4F5  No response to %d echo-requests
+0000B53D  Peer not responding
+0000B67D  /IDF/components/lwip/lwip/src/netif/ppp/fsm.c
+0000B788  s_esp_netif_counter > 0
+0000B7A0  //IDF/components/esp_netif/esp_netif_objects.c
+0000B7D8  esp_netif_lwip
+0000B7E7  E (%lu) %s: dhcps cb: failed to post IP_EVENT_AP_STAIPASSIGNED (%x)
+0000B82C  E (%lu) %s: DHCP server cannot be started
+0000B857  espressif
+0000B95E  E (%lu) %s: %s: Failed to configure netif with config=%p (DHCP server and client cannot be configured together)
+0000BA3F  E (%lu) %s: Initial configuration of esp_netif failed with %d
+0000BA7E  E (%lu) %s: Cannot start esp_netif: Missing mandatory configuration:
+0000BAC3  esp_netif->driver_transmit: %p, esp_netif->driver_handle:%p, esp_netif->lwip_input_fn: %p, esp_netif->lwip_init_fn:%p
+0000BB3A  esp_netif_config_sanity_check(esp_netif)
+0000BB63  /IDF/components/esp_netif/lwip/esp_netif_lwip.c
+0000BBBD  esp_netif_lwip_add(esp_netif)
+0000BC88  E (%lu) %s: esp netif cannot create tcpip_init semaphore
+0000BD01  E (%lu) %s: Please use esp_netif_set_ip_info interface to configure subnet mask
+0000BD52  E (%lu) %s: %s: dns_info cannot be NULL
+0000BDA2  //IDF/components/esp_netif/lwip/esp_netif_lwip_ppp.c
+0000BDE8  esp-netif_lwip-ppp
+0000BDFB  E (%lu) %s: esp_event_post failed with code %d
+0000BF95  E (%lu) %s: Unknown error code %d
+0000BFE3  E (%lu) %s: %s: cannot allocate lwip_ppp_ctx
+0000C011  E (%lu) %s: %s: lwIP PPP connection cannot be created
+0000C048  E (%lu) %s: %s: PPP connection cannot be started
+0000C0A0  esp_wpa3_hostap_task
+0000C1C5  //IDF/components/wpa_supplicant/src/rsn_supp/wpa_ie.c
+0000C227  //IDF/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c
+0000C286  E (%lu) %s: Send smartconfig ACK error: %d
+0000C2F9  wifi_init
+0000C351  wifi
+0000C35B  ESPNOW
+0000C362  E (%lu) %s: Failed to init supplicant (0x%x)
+0000C3BB  WIFI_EVENT
+0000C3C6  wifi_init_default
+0000C3D8  E (%lu) %s: esp_wifi_get_mac failed with %d
+0000C405  E (%lu) %s: esp_wifi_register_if_rxcb for if=%p failed with %d
+0000C471  E (%lu) %s: Failed to create wifi interface handle
+0000C4A5  //IDF/components/esp_wifi/src/wifi_default.c
+0000C4D2  esp_netif_attach_wifi_ap(netif)
+0000C4F2  esp_wifi_set_default_wifi_ap_handlers()
+0000C51A  esp_netif_attach_wifi_station(netif)
+0000C53F  esp_wifi_set_default_wifi_sta_handlers()
+0000C568  wifi_netif
+0000C573  E (%lu) %s: No memory to create a wifi interface handle
+0000C602  E (%lu) %s: Unknown wifi interface id if=%d
+0000C62F  E (%lu) %s: esp_wifi_internal_reg_rxcb for if=%d failed with %d
+0000C670  WIFI_STA_DEF
+0000C67D  E (%lu) %s: Creat udp socket failed
+0000C76B  sc_ack_send_task
+0000C77C  E (%lu) %s: Create sending smartconfig ACK task fail
+0000C7D3  /IDF/components/bt/controller/esp32/bt.c
+0000CA62  E (%lu) %s: %s(%d): invalid gpio number
+0000CBE5  //IDF/components/espcoredump/src/core_dump_common.c
+0000CC19  E (%lu) %s: Core dump write failed with error=%d
+0000CED4  //IDF/components/espcoredump/src/core_dump_flash.c
+0000D115  E (%lu) %s: Zero size register dump for task 0x%x!
+0000D266  E (%lu) %s: %s(%u): ELF header writing error, returned (%d).
+0000D2A4  E (%lu) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0000D335  E (%lu) %s: %s(%u): Tasks regs addition failed, return (%d).
+0000D373  E (%lu) %s: Task (TCB:%x) processing failure = %d
+0000D3A6  E (%lu) %s: %s(%u): Task %x, TCB write failed, return (%d).
+0000D3E3  E (%lu) %s: Task (TCB:%x), (Stack:%x), stack processing failure = %d.
+0000D42A  E (%lu) %s: %s(%u): Task %x, stack write failed, return (%d).
+0000D469  E (%lu) %s: %s(%u): Interrupted task stack write failed, return (%d).
+0000D4B0  E (%lu) %s: %s(%u): ELF Size writing error, returned (%d).
+0000D557  E (%lu) %s: %s(%u): memory regions writing error, returned (%d).
+0000D599  ESP_CORE_DUMP_INFO
+0000D613  ESP_EXTRA_INFO
+0000D698  ESP_PANIC_DETAILS
+0000D8B7  //IDF/components/espcoredump/src/core_dump_crc.c
+0000D963  //IDF/components/espcoredump/src/port/xtensa/core_dump_port.c
+0000D9A1  task != ((void *)0) && reg_dump != ((void *)0)
+0000DA06  E (%lu) %s: Error while registers processing.
+0000DA35  arduino-esp32
+0000DA6B  /./managed_components/espressif__network_provisioning/src/manager.c
+0000DB6A  prov-scan
+0000DBFB  E (%lu) %s: Failed to get count of scanned APs
+0000DC5E  E (%lu) %s: Failed to get scanned AP records
+0000DC8C  E (%lu) %s: Failed to start scan
+0000DCF0  E (%lu) %s: STA Auth Error
+0000DE40  //IDF/components/esp_mm/esp_mmu_map.c
+0000E229  //IDF/components/esp_system/port/soc/esp32/reset_reason.c
+0000E263  /IDF/components/hal/esp32/clk_tree_hal.c
+0000E2B4  /IDF/components/hal/esp32/include/hal/adc_ll.h
+0000E2E3  WIFI_NMI
+0000E2EC  WIFI_BB
+0000E3AD  GPIO_NMI
+0000E3FC  UART0
+0000E402  UART1
+0000E408  UART2
+0000E589  eRunning != eTaskGetState( xTaskToDelete )
+0000E5B4  //IDF/components/freertos/esp_additions/idf_additions.c
+0000E60A  pxTaskBuffer != ((void *)0)
+0000E626  esp_timer
+0000E630  E (%lu) %s: Task is already initialized
+0000E659  E (%lu) %s: Not enough memory to create timer task
+0000E6B3  esp_timer_create(&create_args, (esp_timer_handle_t*) & (ptimer->timer_arg))
+0000E719  //IDF/components/esp_timer/src/ets_timer_legacy.c
+0000E74B  esp_timer_start_once(ESP_TIMER(ptimer), time_us)
+0000E77C  esp_timer_start_periodic(ESP_TIMER(ptimer), time_us)
+0000E7D3  //IDF/components/lwip/apps/dhcpserver/dhcpserver.c
+0000E876  esp_netif_handlers
+0000E8C7  esp_event_post in esp_netif_action_connected
+0000E927  WIFI_AP_DEF
+0000E937  /IDF/components/esp_netif/lwip/netif/wlanif.c
+0000F998  esp-aes
+0000FA68  //IDF/components/mbedtls/port/bignum/esp_bignum.c
+0000FA9A  esp-aes-gcm
+0000FBD4  //IDF/components/mbedtls/port/sha/parallel_engine/sha.c
+0000FC68  Invalid coexist adapter function md5, internal: %s, idf: %s
+0000FCA5  Invalid coexist i154 event type function md5, internal: %s, idf: %s
+0000FD0B  coexist adapter function version error! Version %x is expected, but it is %x
+0000FD59  coexist adapter function magic error! Magic %x is expected, but it is %x
+0000FE28  OS adapter function version error! Version %d is expected, but it is %x
+0000FE71  OS adapter function magic error! Magic %d is expected, but it is %x
+0000FEB6  Invalid OSI esp_wifi_os_adapter.h md5, internal: %s, idf: %s
+0000FEF4  Invalid WiFi esp_wifi_crypto_types.h md5, internal: %s, idf: %s
+0000FF35  Invalid WiFi esp_wifi_types.h md5, internal: %s, idf: %s
+0000FF6F  Invalid WiFi esp_wifi.h md5, internal: %s, idf: %s
+0000FFA3  Invalid WiFi esp_wifi_he.h md5, internal: %s, idf: %s
+0000FFDA  Invalid WiFi esp_wifi_he_types.h md5, internal: %s, idf: %s
+00010026  WIFI_MESH_EVENT
+0001007A  resp
+00010250  sta.ssid
+0001028A  bssid.set
+00010294  sta.bssid
+000102D4  sta.scan_method
+0001033E  ap.ssid
+00010346  ap.passwd
+000104EA  ESP_%02X%02X%02X
+000104FB  nvs.net80211
+00010566  ieee80211_scan.c
+000105AD  ieee80211_supplicant.c
+000105C4  Invalid supplicant md5, internal: %s, idf: %s
+00010614  passive
+00010730  E (%d) %s: promis scan ret %d
+000107AE  I (%d) %s: scan status %d
+0001088E  E (%d) %s: Smartconfig type is not ESP_TOUCH_V2
+000108F2  /IDF/components/hal/esp32/include/hal/mpi_ll.h
+00010921  /IDF/components/lwip/lwip/src/core/ipv6/ethip6.c
+00010969  __gnu_cxx::__concurrence_lock_error
+0001098D  __gnu_cxx::__concurrence_unlock_error
+00010B07  /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/mprec.c
+00010BC4  /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/dtoa.c
+00010ED4  uartFlushTxOnly
+00010EE4  _uartDetachBus_RX
+00010EF6  _uartDetachBus_TX
+00010F08  _uartDetachBus_CTS
+00010F1B  gpio_ll_iomux_func_sel
+00010F32  _uartDetachBus_RTS
+00010F45  gpio_func_sel
+00010F53  gpio_wakeup_disable
+00010F67  gpio_wakeup_enable
+00010F7A  gpio_isr_register
+00010F8C  gpio_isr_handler_remove
+00010FA4  gpio_isr_handler_add
+00010FB9  gpio_install_isr_service
+00010FD2  gpio_od_disable
+00010FE2  gpio_od_enable
+00010FF1  gpio_ll_output_disable
+00011008  gpio_output_disable
+0001101C  gpio_output_enable
+0001102F  gpio_input_disable
+00011042  gpio_input_enable
+00011054  gpio_set_direction
+00011067  gpio_set_pull_mode
+0001107A  gpio_set_level
+00011089  gpio_intr_disable
+0001109B  gpio_intr_enable
+000110AC  gpio_set_intr_type
+000110BF  gpio_pulldown_dis
+000110D1  gpio_ll_pulldown_en
+000110E5  gpio_pulldown_en
+000110F6  gpio_pullup_dis
+00011106  gpio_ll_pullup_en
+00011118  gpio_pullup_en
+00011127  rtc_gpio_wakeup_disable
+0001113F  rtc_gpio_wakeup_enable
+00011170  rtc_gpio_pulldown_dis
+0001119F  rtc_gpio_pulldown_en
+000111CC  rtc_gpio_pullup_dis
+000111F7  rtc_gpio_pullup_en
+0001120A  rtc_gpio_set_direction
+00011221  rtc_gpio_deinit
+00011262  rtc_gpio_init
+00011270  esp_ota_get_running_partition
+0001128E  esp_ota_get_app_partition_count
+000112AE  esp_partition_get
+000112C0  esp_partition_next
+000112D3  esp_partition_mmap
+000112E6  esp_partition_erase_range
+00011300  esp_partition_write_raw
+00011318  esp_partition_read_raw
+0001132F  esp_partition_write
+00011343  esp_partition_read
+00011356  esp_efuse_utility_read_reg
+00011371  esp_efuse_utility_process
+0001143D  esp_flash_write
+0001144D  esp_flash_erase_region
+00011464  esp_flash_init_default_chip
+00011536  esp_mspi_get_io
+0001154C  ipc_task
+00011555  esp_ipc_init
+00011573  ?__esp_system_init_fn_init_flash
+000115A1  esp_task_wdt_delete
+000115B5  esp_task_wdt_reset
+000115D2  esp_task_wdt_add
+000115F2  task_wdt_isr
+000115FF  esp_task_wdt_init
+00011611  task_wdt_timeout_abort
+0001162D  esp_ipc_isr_release_other_cpu
+00011770  esp_clk_init
+0001178F  ?esp_crosscore_int_send
+000117A7  esp_crosscore_int_init
+000117C7  @ERROR
+00011F12  esp_log_level_set
+00012B24  esp_cpu_unstall
+00012B34  esp_cpu_stall
+00012B42  esp_fill_random
+00012B52  esp_intr_disable
+00012B7D  esp_cpu_intr_edge_ack
+00012B93  esp_cpu_intr_set_handler
+00012C30  esp_clk_tree_src_get_freq_hz
+00012C89  esp_cpu_intr_get_desc
+00012EAC  main_task
+00012EB6  esp_startup_start_app
+00012ECC  vQueueDelete
+00012ED9  uxQueueMessagesWaiting
+00012EF0  xQueueReceiveFromISR
+00012F05  xQueueSemaphoreTake
+00012F19  xQueueReceive
+00012F27  xQueueGiveFromISR
+00012F39  xQueueGenericSendFromISR
+00012F52  prvNotifyQueueSetContainer
+00012F6D  xQueueGenericSend
+00012F7F  xQueueCreateCountingSemaphore
+00012F9D  xQueueCreateCountingSemaphoreStatic
+00012FC1  xQueueTakeMutexRecursive
+00012FDA  xQueueGiveMutexRecursive
+00012FF3  xQueueGetMutexHolder
+00013008  xQueueGenericCreate
+0001301C  xQueueGenericGetStaticBuffers
+0001303A  xQueueGenericCreateStatic
+00013054  xQueueGenericReset
+00013067  xTaskGetCurrentTaskHandleForCore
+00013088  xTaskGetIdleTaskHandleForCore
+000130A6  xTaskCreateStaticPinnedToCore
+000130C4  prvInitialiseNewTask
+000130D9  xTaskCreatePinnedToCore
+000130F1  xTaskIncrementTickOtherCores
+0001310E  vTaskGenericNotifyGiveFromISR
+0001312C  xTaskGenericNotify
+0001313F  ulTaskGenericNotifyTake
+00013157  vTaskPriorityDisinheritAfterTimeout
+0001317B  xTaskPriorityDisinherit
+00013193  xTaskCheckForTimeOut
+000131A8  vTaskRemoveFromUnorderedEventList
+000131CA  xTaskRemoveFromEventList
+000131E3  vTaskPlaceOnEventListRestricted
+00013203  vTaskPlaceOnUnorderedEventList
+00013222  vTaskPlaceOnEventList
+00013238  prvSelectHighestPriorityTaskSMP
+00013258  xTaskIncrementTick
+0001326B  pcTaskGetName
+00013279  xTaskResumeAll
+00013288  vTaskStartScheduler
+0001329C  xTaskResumeFromISR
+000132AF  prvTaskIsTaskSuspended
+000132C6  vTaskResume
+000132D2  vTaskSuspend
+000132F5  vTaskPrioritySet
+00013306  vTaskDelay
+0001331E  vTaskDelete
+000133A0  //IDF/components/esp_hw_support/include/spinlock.h
+00013512  vApplicationGetTimerTaskMemory
+00013531  vApplicationGetIdleTaskMemory
+0001356A  xTimerCreateTimerTask
+00013580  esp_newlib_locks_init
+000135F4  pthread_cancel
+00013631  esp_timer_impl_update_apb_freq
+00013650  esp_timer_impl_set_alarm_id
+000139AC  uart_set_rx_timeout
+000139C0  uart_set_rx_full_threshold
+000139DB  uart_driver_delete
+000139EE  uart_driver_install
+00013A02  uart_flush_input
+00013A13  uart_get_tx_buffer_free_size
+00013A30  uart_get_buffered_data_len
+00013A4B  uart_reenable_intr_mask
+00013A63  uart_read_bytes
+00013A73  uart_write_bytes
+00013A84  uart_wait_tx_done
+00013A96  uart_wait_tx_done
+00013AA8  uart_intr_config
+00013AB9  uart_param_config
+00013ACB  uart_set_pin
+00013AD8  uart_enable_tx_intr
+00013AEC  uart_pattern_queue_reset
+00013B05  uart_disable_intr_mask
+00013B1C  uart_set_line_inverse
+00013B32  uart_get_baudrate
+00013B44  uart_set_baudrate
+00013B56  uart_get_parity
+00013B66  uart_set_parity
+00013B76  uart_get_stop_bits
+00013B89  uart_set_stop_bits
+00013B9C  uart_get_word_length
+00013BB1  uart_set_word_length
+00013BC6  uart_vfs_dev_register
+00013BDC  uart_write
+00013BE7  uart_return_char
+00013BF8  uart_read
+00013C02  uart_close
+00013C0D  uart_fstat
+00013C18  uart_fcntl
+00013C23  uart_fsync
+00013CF4  esp_event_post_to
+00013D06  esp_event_handler_unregister_with_internal
+00013D31  esp_event_handler_register_with_internal
+00013D5A  esp_event_loop_run
+00013DF3  @twai_transmit_v2
+00013E05  twai_driver_uninstall_v2
+00013E1E  twai_configure_gpio
+00013E32  twai_ll_set_clock_source
+00013E4B  twai_free_driver_obj
+00013E60  twai_handle_tx_buffer_frame
+00013E7C  twai_driver_install_v2
+00013E93  esp_phy_load_cal_and_init
+00013EAD  store_cal_data_to_nvs_handle
+00013ECA  load_cal_data_from_nvs_handle
+00013EE8  esp_phy_load_cal_data_from_nvs
+00014066  lwip_selscan
+000140CE  lwip_recvfrom_udp_raw
+000140F8  lwip_recv_tcp
+0001414B  tcpip_thread_handle_msg
+00014163  tcpip_timeouts_mbox_fetch
+0001417D  tcpip_thread
+0001418A  tcpip_init
+00014195  tcpip_try_callback
+000141A8  tcpip_inpkt
+000145C4  tcp_netif_ip_addr_changed_pcblist
+000145E6  tcp_eff_send_mss_netif
+000145FD  tcp_next_iss
+0001460A  tcp_pcb_remove
+00014619  tcp_poll
+00014622  tcp_accept
+0001462D  tcp_err
+00014635  tcp_sent
+0001463E  tcp_recv
+00014647  tcp_arg
+0001464F  tcp_alloc
+00014659  tcp_seg_copy
+00014666  tcp_slowtmr
+00014672  tcp_connect
+0001467E  tcp_recved
+00014689  tcp_update_rcv_ann_wnd
+000146A0  tcp_bind_netif
+000146AF  tcp_bind
+000146B8  tcp_abandon
+000146C4  tcp_shutdown
+000146D1  tcp_close_shutdown_fin
+000146E8  tcp_free_listen
+000146F8  tcp_close_shutdown
+0001470B  tcp_close_ext
+00014719  tcp_backlog_accepted
+0001472E  tcp_free
+0001475C  tcp_oos_insert_segment
+00014773  tcp_free_acked_segments
+0001478B  tcp_receive
+00014797  tcp_process
+000147A3  tcp_parseopt
+000147B0  tcp_input
+000147BA  tcp_zero_window_probe
+000147D0  tcp_keepalive
+000147DE  tcp_output_alloc_header
+000147F6  tcp_send_empty_ack
+00014809  tcp_output_control_segment
+00014824  tcp_output_fill_options
+0001483C  tcp_output_alloc_header_common
+0001485B  tcp_rst
+00014863  tcp_rexmit_fast
+00014873  tcp_rexmit
+0001487E  tcp_rexmit_rto
+0001488D  tcp_rexmit_rto_commit
+000148A3  tcp_rexmit_rto_prepare
+000148BA  tcp_output_segment_busy
+000148D2  tcp_output_segment
+000148E5  tcp_output
+000148F0  tcp_enqueue_flags
+00014902  tcp_send_fin
+0001490F  tcp_split_unsent_seg
+00014924  tcp_create_segment
+00014937  tcp_pbuf_prealloc
+00014949  tcp_write_checks
+0001495A  tcp_write
+000149B8  tcp_timer_needed
+000149F3  @udp_new_ip_type
+00014A04  udp_new
+00014A0C  udp_remove
+00014A17  udp_recv
+00014A20  udp_disconnect
+00014A2F  udp_connect
+00014A3B  udp_bind_netif
+00014A4A  udp_bind
+00014A53  udp_sendto_if_src
+00014A65  udp_input_local_match
+00014A7B  udp_input
+00014C0F  etharp_update_arp_entry
+00014C4D  icmp_send_response
+00014DAC  icmp6_send_response_with_addrs_and_netif
+00014DD5  icmp6_send_response
+00015179  vj_compress_tcp
+00015189  sys_thread_tcpip
+00015220  esp_vfs_lwip_sockets_register
+00015366  recv_tcp
+0001536F  sent_tcp
+000153B1  poll_tcp
+000153D2  err_tcp
+000153DA  recv_udp
+00015525  esp_netif_remove_from_list_unsafe
+0001554A  @?esp_netif_get_dns_info
+00015563  esp_netif_start_api
+00015577  esp_netif_new_api
+00015589  esp_netif_destroy_ppp
+0001559F  esp_netif_stop_ppp
+000155B2  esp_netif_start_ppp
+000155F0  esp_netif_new_ppp
+00015602  esp_netif_ppp_set_default_netif
+00015CBA  @?esp_netif_create_default_wifi_sta
+00015CDE  esp_netif_create_default_wifi_ap
+00015D3E  @?esp_bt_controller_rom_mem_release
+0001602C  esp_core_dump_get_user_ram_info
+0001606B  ?esp_core_dump_common
+00016081  esp_core_dump_image_check
+0001609B  esp_core_dump_flash
+00016110  elf_save_task
+0001611E  elf_process_task_data
+00016198  elf_process_tasks_regs
+000161AF  elf_write_tasks_data
+000161DA  esp_core_dump_do_write_elf_pass
+000161FA  esp_core_dump_elf
+00016220  esp_core_dump_crc
+00016232  esp_core_dump_get_task_regs_dump
+00016253  esp_core_dump_get_stack
+0001626B  esp_core_dump_port
+00016324  esp_mmu_vaddr_to_paddr
+0001633B  esp_mmu_unmap
+00016349  esp_mmu_map
+00016355  esp_mmu_map
+00016361  esp_mmu_map_get_max_consecutive_free_block_size
+000163D1  esp_mmu_map_init
+0001642C  esp_reset_reason_set_hint
+00016626  vQueueDeleteWithCaps
+00016686  Scesp_netif_action_connected
+000188F0  esp_sha_block
+000188FE  esp_sha_read_digest_state
+0001892D  esp_sha_lock_engine_common
+00018D78  ieee80211_scan_inter_chan
+00018D92  ieee80211_scan_enter_op_chan
+00018F73  lmacProcessTxError
+00018F86  lmacProcessTxRtsError
+000193FE  rcReachRetryLimit
+000195A2  A?St11logic_error
+000195BE  A?St12length_error
+00019637  @N9__gnu_cxx24__concurrence_lock_errorE
+0001966A  A?N9__gnu_cxx26__concurrence_unlock_errorE
+0001A51F  @0000000000000000                wifi ipc: failed to post wifi task
+0001A582  failed to post WiFi event=%d ret=%d
+0001A5A6  wifi stop stage3: out of memory!
+0001A5C7  wifi stop stage2: out of memory!
+0001A5E8  wifi stop: out of memory!
+0001A602  wifi deinit internal: wifi not stop
+0001A94E  addba response cb: status %d not success, no need to configure hardware
+0001A996  addba response cb: invalid interface - %d!
+0001A9C1  addba response cb: ndp peer bss deleted
+0001A9E9  addba response cb: nan conn deleted
+0001AA0D  addba response cb: ap bss deleted
+0001AA2F  addba response cb: ap conn deleted
+0001AA52  addba response cb: bssid change from %02x:%02x:%02x:%02x:%02x:%02x to %02x:%02x:%02x:%02x:%02x:%02x
+0001AAB6  addba response cb: sta bss deleted
+0001AAD9  addba response cb: sta conn deleted
+0001AAFD  addba response invalid param
+0001AB8F  Too high NAN scan(%d) or warm up(%d) time
+0001AC06  wifi stop stage error, stage=%d
+0001AC67  rx ba window %d error
+0001ACAC  tx buf type %d error
+0001ADAB  invalid magic number %x, call WIFI_INIT_CONFIG_DEFAULT to init config
+0001AEF3  sta is connecting, return error
+0001AF3C  Set mode failed with error %d. Restored old mode %d
+0001AF70  Set mode failed with error %d. Restored old mode %d
+0001AFA4  Can't config when NAN already started!
+0001AFD2  init nvs: failed, ret=%x
+0001AFEB  wifi nvs cfg alloc out of memory
+0001B00C  nvs invalid min %d max %d
+0001B026  invalid wifi nvs key index %d
+0001B09F  Error in constructing dh ie or OWE is not enabled in menuconfig
+0001B247  Processing association response failed
+0001B421  timeout when WiFi un-init, type=%d
+0001B4E6  failed to get bss for bssid=%02x:%02x:%02x:%02x:%02x:%02x
+0001B520  sta_scan: STA not exist!
+0001B84A  create wifi task: failed to create task
+0001B872  create wifi task: failed to create sem
+0001B899  create wifi task: failed to create queue
+0001B8C2  create wifi task: failed to create queue
+0001B934  wifi assert: %d
+0001B94B  update default trc: invalid ifx
+00026658  Tasks currently running:
+00027798  [%u] CO: create fwn mutex error!
+000277C6  [%u] CO: init coex schm error!
+000277E6  [%u] CO: create bb reset mutex error!
+0002780D  [%u] CO: create semaphore error!
+00027891  [%u] CO: create schm semaphore error!
+0002792A  [%u] CO: create arbit mux error!
+0002794C  [%u] CO: create arbit mem mux error!
+00028D47  esp_cache_get_alignment
+00028F70  total_pwr=%ld, min=%ld, max=%ld, rftx=0x%x, att=%d, dc_i=%d, dc_q=%d
+000290E8  total_power=%lld, sig_power=%lld, dc_power=%lld, noise_power=%lld
+0002912C  step=%d, %d
+00029394  rc_dout, %d; wifi: %d, %d, %d, %d, bt: %d, %d
+00029488  RXDC_RFRX_WIFI, 
+0002949C  RXDC_RXBB_WIFI, 
+000294C0  1,target_power,%d, %d, p_error,%d, correct_v,%d, error_accum, %d, tot_p,%d, coatt,%d, rf_g,%x,%x, txq_rate,%d, %d, chan,%d, rate_att,%d
+000295F4  set_chan error! %d
+0002961C  error: pll_cal exceeds 2ms!!!
+0002985C  E (%lu) %s: No response from device when trying to retrieve Unique ID
+000298BC  //IDF/components/spi_flash/spi_flash_chip_generic.c
+00029945  E (%lu) %s: no response
+0002995F  %s failed: esp_err_t 0x%x
+000299B7  ESP_ERROR_CHECK
+000299E8  /IDF/components/hal/esp32/include/hal/mwdt_ll.h
+00029A35  /IDF/components/hal/esp32/include/hal/mmu_ll.h
+00029A96  /IDF/components/hal/mmu_hal.c
+00029C3C  /IDF/components/hal/esp32/cache_hal_esp32.c
+00029D4B  /IDF/components/hal/esp32/include/hal/clk_tree_ll.h
